@@ -1,5 +1,13 @@
 import React from 'react';
 import Speaking from './Speaking.png';
+import Listening from './Listening.png';
+import Reading from './Reading.png';
+import Writing from './Writing.png';
+import Vocabulary from './Vocabulary.png';
+import Classes from './Classes.png';
+import BookIELTSExams from './BookIELTSExams.png';
+import StudentNews from './StudentNews.png';
+import youtube from './youtube.png';
 
 
 const PrepareWithEase = () => {
@@ -40,39 +48,39 @@ const observer = new IntersectionObserver(entries => {
           <span className="text">Speaking</span>
         </div>
         <div className="row-image-text square-wrapper">
-          <img className="img2 square square-animation" src="pictures\snappedPics\Listening.png" alt="" />
+          <img className="img2 square square-animation" src={Listening} alt="" />
           <span className="text">Listening</span>
         </div>
         <div className="row-image-text square-wrapper">
-          <img className="img3 square square-animation" src="pictures\snappedPics\Reading.png" alt="" />
+          <img className="img3 square square-animation" src={Reading} alt="" />
           <span className="text">Reading</span>
         </div>
         <div className="row-image-text square-wrapper">
-          <img className="img4 square square-animation" src="pictures\snappedPics\Writing.png" alt="" />
+          <img className="img4 square square-animation" src={Writing} alt="" />
           <span className="text">Writing</span>
         </div>
       </div>
       <div className="secondRow">
         <div className="row-image-text square-wrapper">
-          <img className="img5 square square-animation" src="pictures\snappedPics\Vocabulary.png" alt="" />
+          <img className="img5 square square-animation" src={Vocabulary} alt="" />
           <span className="text">Vocabulary</span>
         </div>
         <div className="row-image-text square-wrapper">
-          <img className="img6 square square-animation" src="pictures\snappedPics\Classes.png" alt="" />
+          <img className="img6 square square-animation" src={Classes} alt="" />
           <span className="text">Classes</span>
         </div>
         <div className="row-image-text square-wrapper">
-          <img className="img7 square square-animation" src="pictures\snappedPics\BookIELTSExams.png" alt="" />
+          <img className="img7 square square-animation" src={BookIELTSExams} alt="" />
           <span className="text">Book IELTS Exam</span>
         </div>
         <div className="row-image-text square-wrapper">
-          <img className="img8 square square-animation" src="pictures\snappedPics\StudentNews.png" alt="" />
+          <img className="img8 square square-animation" src={StudentNews} alt="" />
           <span className="text">Student News</span>
         </div>
           </div>
           </section>
           <section className="modulesSec desk">
-                    <div className='appGdVdo'><video src="https://youtu.be/coYJSbTdkug?si=ZJdVLJOFX6aqjlNi" poster='pictures\youtube (8) 1.png'></video><span>App Guide Viseo</span></div>
+                    <div className='appGdVdo'><video src="https://youtu.be/coYJSbTdkug?si=ZJdVLJOFX6aqjlNi" poster={youtube}></video><span>App Guide Viseo</span></div>
                     <div className='practiceMT'>
                         <h3>Practice Mock Tests</h3>
                         <span>Get the authentic IELTS exam experience with all four modules covered</span>
