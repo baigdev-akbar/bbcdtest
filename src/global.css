@@ -724,8 +724,7 @@ span.priceLabel{
     font-family: sans-serif;
 }
 .firstLine{
-/*     display: inline-flex; */
-	display:none !importent;
+    display: inline-flex;
     padding: 15px;
     width: 100%;
     
