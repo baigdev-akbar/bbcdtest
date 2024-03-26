@@ -1,5 +1,5 @@
 import React from 'react';
-import {Speaking} from "../pictures/snappedPics/Speaking.png";
+import {Speaking} from "./pictures/snappedPics/Speaking.png";
 
 const PrepareWithEase = () => {
 
