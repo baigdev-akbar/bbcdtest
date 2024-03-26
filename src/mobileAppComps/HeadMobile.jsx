@@ -4,6 +4,8 @@ import { GiNetworkBars } from 'react-icons/gi';
 import { IoWifiOutline } from 'react-icons/io5';
 import { LuBatteryCharging } from 'react-icons/lu';
 import { Link, Outlet } from 'react-router-dom';
+import Frame196 from 'Frame196.png';
+import Frame48096367 from 'Frame48096367.png';
 
 const HeaderMobile = () => {
   const date = new Date();
@@ -29,13 +31,13 @@ const HeaderMobile = () => {
           <div className="secondLine" >
             <div className="homeUSerLogin">
               <Link to="/user">
-                <img src="/pictures/Frame 48096367.png" alt="" />
+                <img src={Frame48096367} alt="" />
               </Link>
             </div>
             <span>Home</span>
             <div className="homeUSerLogin ">
               <a href="https://www.instagram.com/">
-                <img src="/pictures/Frame 196.png" alt="" />
+                <img src={Frame196} alt="" />
               </a>
             </div>
           </div>
