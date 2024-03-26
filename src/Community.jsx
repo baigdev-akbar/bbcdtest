@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Outlet } from './react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import Frame48096367 from './Frame48096367.png';
 
 const Community = () => {
