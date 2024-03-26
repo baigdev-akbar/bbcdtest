@@ -716,7 +716,7 @@ span.priceLabel{
     background: linear-gradient(0deg, rgb(18, 50, 132) 1%, rgb(21, 77, 175) 49%, rgb(19, 107, 239) 100%);
 }
 .mob-hdr-itm-wrapper{
-    display: flex;
+    display: none;
     
 }
 .timeT{
