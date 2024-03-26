@@ -1,4 +1,5 @@
 import React from 'react'
+import logout_nobg from './logout_nobg.png';
 
 const LogOutBtn = () => {
     const logOut = () => {
@@ -6,7 +7,7 @@ const LogOutBtn = () => {
     }
   return (
     <div>
-      <button onClick={logOut} className='lgtBtn'><img src="/pictures/logout-nobg.png" alt="" /><span>Logout</span></button>
+      <button onClick={logOut} className='lgtBtn'><img src={logout_nobg} alt="" /><span>Logout</span></button>
     </div>
   )
 }
