@@ -1,5 +1,5 @@
 import React from 'react';
-import {Speaking.png} from "pictures\snappedPics\Speaking.png";
+import {Speaking} from "pictures\snappedPics\Speaking.png";
 
 const PrepareWithEase = () => {
 
@@ -42,7 +42,7 @@ const observer = new IntersectionObserver(entries => {
 		<img className="img1 square square-animation" src={"akbarbaigaa/bbcdtest/blob/main/pictures/snappedPics/Speaking.png"} alt="" />
 		<img className="img1 square square-animation" src={"pictures/snappedPics/Speaking.png"} alt="" /> */}
 		
-		<img className="img1 square square-animation" src={Speaking.png} alt="" /> 
+		<img className="img1 square square-animation" src={Speaking} alt="" /> 
 {/* 		<img className="img1 square square-animation" src="bbcdtest\pictures\snappedPics\Speaking.png" alt="" />
 		<img className="img1 square square-animation" src={"bbcdtest/pictures/snappedPics/Speaking.png"} alt="" /> */}
 		
