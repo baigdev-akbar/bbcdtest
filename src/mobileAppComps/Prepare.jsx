@@ -1,4 +1,14 @@
 import React from 'react';
+import Speaking from './Speaking.png';
+import Listening from './Listening.png';
+import Reading from './Reading.png';
+import Writing from './Writing.png';
+import Vocabulary from './Vocabulary.png';
+import Classes from './Classes.png';
+import BookIELTSExams from './BookIELTSExams.png';
+import StudentNews from './StudentNews.png';
+import Consultency from './Consultency.png';
+
 
 const Prepare = () => {
   return (
@@ -11,7 +21,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img1 square square-animation"
-            src="pictures\snappedPics\Speaking.png"
+            src={Speaking}
             alt=""
           />
           <span className="text">Speaking</span>
@@ -19,7 +29,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img2 square square-animation"
-            src="pictures\snappedPics\Listening.png"
+            src={Listening}
             alt=""
           />
           <span className="text">Listening</span>
@@ -27,7 +37,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img3 square square-animation"
-            src="pictures\snappedPics\Reading.png"
+            src={Reading}
             alt=""
           />
           <span className="text">Reading</span>
@@ -40,7 +50,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img4 square square-animation"
-            src="pictures\snappedPics\Writing.png"
+            src={Writing}
             alt=""
           />
           <span className="text">Writing</span>
@@ -48,7 +58,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img5 square square-animation"
-            src="pictures\snappedPics\Vocabulary.png"
+            src={Vocabulary}
             alt=""
           />
           <span className="text">Vocabulary</span>
@@ -56,7 +66,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img6 square square-animation"
-            src="pictures\snappedPics\Classes.png"
+            src={Classes}
             alt=""
           />
           <span className="text">Classes</span>
@@ -68,7 +78,7 @@ const Prepare = () => {
       <div className="row-image-text square-wrapper">
           <img
             className="img7 square square-animation"
-            src="pictures\snappedPics\BookIELTSExams.png"
+            src={BookIELTSExams}
             alt=""
           />
           <span className="text">Book IELTSbr <br /> Exam</span>
@@ -76,7 +86,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img8 square square-animation"
-            src="pictures\snappedPics\StudentNews.png"
+            src={StudentNews}
             alt=""
           />
           <span className="text">Student News</span>
@@ -84,7 +94,7 @@ const Prepare = () => {
         <div className="row-image-text square-wrapper">
           <img
             className="img8 square square-animation"
-            src="pictures\snappedPics\Consultency.png"
+            src={Consultency}
             alt=""
           />
           <span className="text">Consultancy</span>
