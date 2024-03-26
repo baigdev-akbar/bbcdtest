@@ -117,7 +117,7 @@ const YourProgressSummary = () => {
               </div>
 
           <div className='blurbModule desk'>
-              <img src={FrameKid.png} alt="" />
+              <img src={FrameKid} alt="" />
               <div className='title-text-btn'>
                   <h3>One Share can save many lives</h3>
                   <span>Your one share can unlock a world of education for unprivileged.</span>
@@ -202,7 +202,7 @@ const YourProgressSummary = () => {
               </div>
 
           <div className='blurbModule desk'>
-              <img src={FrameKid.png} alt="" />
+              <img src={FrameKid} alt="" />
               <div className='title-text-btn'>
                   <h3>One Share can save many lives</h3>
                   <span>Your one share can unlock a world of education for unprivileged.</span>
