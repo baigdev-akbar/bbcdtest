@@ -34,7 +34,7 @@ const observer = new IntersectionObserver(entries => {
       <section className="Imgesction">    
       <div className="firstRow ">
         <div className="row-image-text square-wrapper">
-		<img className="img1 square square-animation" src={pictures/snappedPics/Speaking.png} alt="" />
+		<img className="img1 square square-animation" src={/pictures/snappedPics/Speaking.png} alt="" />
           <span className="text">Speaking</span>
         </div>
         <div className="row-image-text square-wrapper">
