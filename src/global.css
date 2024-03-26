@@ -724,7 +724,8 @@ span.priceLabel{
     font-family: sans-serif;
 }
 .firstLine{
-    display: inline-flex;
+/*     display: inline-flex; */
+	display:none !importent;
     padding: 15px;
     width: 100%;
     
@@ -760,6 +761,7 @@ font-size: 20px;
     width: 100%;
     justify-content: center;
     gap: 90px;
+margin-top:12px
 }
 .chartLabelrow,
 .thirdLinerow,
