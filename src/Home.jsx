@@ -6,6 +6,7 @@ import QuickActions from './mobileAppComps/QuickActions'
 import Explr from './mobileAppComps/Explr'
 import Prepare from './mobileAppComps/Prepare'
 import HeaderMobile from './mobileAppComps/HeadMobile'
+import Frame48096367 from 'Frame48096367.png';
 
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
     <div>
       <HeaderMobile/>
       <div className="homeUSerLogin desk">
-        <Link to="/user"><img src="/pictures/Frame 48096367.png" alt="" /></Link>
+        <Link to="/user"><img src={Frame48096367} alt="" /></Link>
       </div>
       <Outlet />
       <YourProgressSummary/>
