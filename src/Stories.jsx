@@ -5,7 +5,7 @@ const Stories = () => {
   return (
     <div className='align-center'>
       <div className="homeUSerLogin">
-        <Link to="/user"><img src={./Frame48096367} alt="" /></Link>
+        <Link to="/user"><img src={Frame48096367} alt="" /></Link>
       </div>
       <h1>Stories</h1>
     </div>
