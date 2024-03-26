@@ -4,8 +4,8 @@ import { GiNetworkBars } from 'react-icons/gi';
 import { IoWifiOutline } from 'react-icons/io5';
 import { LuBatteryCharging } from 'react-icons/lu';
 import { Link, Outlet } from 'react-router-dom';
-import Frame196 from 'Frame196.png';
-import Frame48096367 from 'Frame48096367.png';
+import Frame196 from './Frame196.png';
+import Frame48096367 from './Frame48096367.png';
 
 const HeaderMobile = () => {
   const date = new Date();
