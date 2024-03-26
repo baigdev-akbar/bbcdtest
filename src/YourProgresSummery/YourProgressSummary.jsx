@@ -4,6 +4,7 @@ import React from 'react'
 import { Bar, Doughnut, Line } from 'react-chartjs-2';
 import datafile from '/src/dataFiles/datafile.json';
 import datafile1 from '/src/dataFiles/datafile1.json';
+import FrameKid from './FrameKid.png';
 
 import {Chart as
     ChartJS,
@@ -116,7 +117,7 @@ const YourProgressSummary = () => {
               </div>
 
           <div className='blurbModule desk'>
-              <img src="/pictures/Frame 427319170.png" alt="" />
+              <img src={FrameKid.png} alt="" />
               <div className='title-text-btn'>
                   <h3>One Share can save many lives</h3>
                   <span>Your one share can unlock a world of education for unprivileged.</span>
@@ -201,7 +202,7 @@ const YourProgressSummary = () => {
               </div>
 
           <div className='blurbModule desk'>
-              <img src="/pictures/Frame 427319170.png" alt="" />
+              <img src={FrameKid.png} alt="" />
               <div className='title-text-btn'>
                   <h3>One Share can save many lives</h3>
                   <span>Your one share can unlock a world of education for unprivileged.</span>
