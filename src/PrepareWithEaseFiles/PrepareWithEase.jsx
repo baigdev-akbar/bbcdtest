@@ -38,6 +38,7 @@ const observer = new IntersectionObserver(entries => {
 		<img className="img1 square square-animation" src="..\snappedPics\Speaking.png" alt="" />
 		<img className="img1 square square-animation" src="pictures\snappedPics\Speaking.png" alt="" />
 		<img className="img1 square square-animation" src="bbcdtest\pictures\snappedPics\Speaking.png" alt="" />
+		<img className="img1 square square-animation" src="..\bbcdtest\pictures\snappedPics\Speaking.png" alt="" />
 		
 /Speaking.png
 
