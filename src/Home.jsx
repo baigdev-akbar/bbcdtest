@@ -6,7 +6,7 @@ import QuickActions from './mobileAppComps/QuickActions'
 import Explr from './mobileAppComps/Explr'
 import Prepare from './mobileAppComps/Prepare'
 import HeaderMobile from './mobileAppComps/HeadMobile'
-import Frame48096367 from 'Frame48096367.png';
+import Frame48096367 from './Frame48096367.png';
 
 
 const Home = () => {
